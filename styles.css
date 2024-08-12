@@ -1,0 +1,41 @@
+
+.upper-section{
+    background-color: #1F2937;
+    color: white;
+    padding: 0 40px 40px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 50px;
+
+
+}
+
+
+.header-list,ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.content-presentation{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
