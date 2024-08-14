@@ -2,17 +2,17 @@
 .upper-section{
     background-color: #1F2937;
     color: white;
-    padding: 0 40px 40px;
+    padding: 0 500px 80px;
 }
 
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 
 }
@@ -31,11 +31,57 @@
 
 .content-presentation{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     
+    
+}
+
+.presentation-text{
+
+    flex-shrink: 3;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 img{
     width: 200px;
     height: 200px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.info-cards,img{
+    border-radius: 10px;
+}
+
+.info-cards,p{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
