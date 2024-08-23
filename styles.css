@@ -79,16 +79,14 @@ img{
 
 .info-cards p{
     flex-wrap: wrap;
-    flex-shrink: 1;
-}
-
-.info-cards,p{
-    flex-wrap: wrap;
     text-align: center;
     margin: 10px;
     font-size: 18px;
-
+    width: 200px;
+    height: auto;
 }
+
+
 
 .information{
     font-size: 36px;
@@ -102,7 +100,7 @@ img{
     display: flex;
     flex-direction: column;
     padding: 50px;
-    margin: 50px 0px;
+    margin: 90px 0px;
 }
 
 
@@ -120,7 +118,34 @@ img{
 .call-to-action{
     background-color: #3882F6;
     display: flex;
-    margin: 60px;
-    padding: 45px;
+    justify-content: space-around;
+    gap: 16px;
+    align-items: center;
+    margin: 60px 200px;
+    padding: 30px;
+    border-radius: 8px;
 }
 
+.call-to-action-info{
+    color: white;
+    font-size: 18px;
+}
+
+.call-to-action-info .main-info{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.call-to-action-button button{
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    flex-grow: 1;
+}
